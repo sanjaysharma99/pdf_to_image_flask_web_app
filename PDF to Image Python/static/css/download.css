@@ -1,0 +1,44 @@
+body{
+    background-color: aliceblue;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    background-color: white;
+    width: 60%;
+    height: 80vh;
+    text-align: center;
+
+}
+#main h2{
+    margin-top: 50px;
+}
+#main form input{
+    margin-top: 60px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 22px;
+    border: none;
+    height: 40px;
+    width: 130px;
+    border-radius: 15px;
+}
+#main form input:active{
+    font-size: 21px;
+
+}
+#main img{
+    margin-top: 50px;
+    width: 300px;
+    
+}
+
+@media screen and (max-width:500px){
+    #main{
+        width: 90%;
+    }
+}

@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>PDF to Image Python</title>
+	<link href="/static/css/home.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<div id="main">
+		<h1>Convert PDF into Image</h1>
+		<form action="/convert" enctype="multipart/form-data" method="POST">
+			<label for="upload" id="uploadbox">
+				<p>Drop file here</p>
+				<p>OR</p>
+				<input type="file" id="upload" name="file" accept=".pdf">
+			</label>
+			<input type="submit" id="sb" value="Convert">
+		</form>
+	</div>
+</body>
+</html>
